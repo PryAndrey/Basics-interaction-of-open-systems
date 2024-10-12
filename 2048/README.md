@@ -8,4 +8,6 @@
 - docker run --rm -d -p 8080:8080 2048-game
 
 Запуск docker compose 
-- docker compose up
+- docker compose up -d
+Выключение и зачистка образов
+- docker compose down --rmi all
